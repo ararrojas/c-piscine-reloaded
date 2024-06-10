@@ -1,1 +1,1 @@
-Los ejercicios mas utiles de la piscina para empezar con todo los proyectos 💪🎭✨
+Los ejercicios más útiles de la piscina para empezar con todo los proyectos 💪🎭✨
