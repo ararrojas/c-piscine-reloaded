@@ -6,7 +6,7 @@
 /*   By: arojas-a <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/06 15:07:00 by arojas-a          #+#    #+#             */
-/*   Updated: 2024/06/06 16:03:52 by arojas-a         ###   ########.fr       */
+/*   Updated: 2024/06/10 17:19:38 by arojas-a         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 int	ft_iterative_factorial(int nb)
@@ -16,6 +16,8 @@ int	ft_iterative_factorial(int nb)
 	res = 1;
 	if (nb < 0)
 		return (0);
+	if (nb <= 1)
+		return (1);
 	while (nb >= 1)
 	{
 		res *= nb;

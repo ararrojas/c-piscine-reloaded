@@ -1,34 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_range.c                                         :+:      :+:    :+:   */
+/*   ft_count_if.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: arojas-a <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/06/10 09:03:20 by arojas-a          #+#    #+#             */
-/*   Updated: 2024/06/10 09:15:55 by arojas-a         ###   ########.fr       */
+/*   Created: 2024/06/10 14:24:46 by arojas-a          #+#    #+#             */
+/*   Updated: 2024/06/10 16:48:14 by arojas-a         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include <stdlib.h>
-
-int	*ft_range(int min, int max)
+int	ft_count_if(char **tab, int (*f)(char*))
 {
+	int	count;
 	int	i;
-	int	*dest;
-	int	diff;
 
-	if (min >= max)
-		return (NULL);
-	diff = max - min;
-	dest = malloc(sizeof(int) * diff);
-	if (dest == NULL)
-		return (NULL);
 	i = 0;
-	while (i < diff)
+	count = 0;
+	while (tab[i])
 	{
-		dest[i] = min;
-		min++;
+		if (f(tab[i]) == 1)
+			count++;
 		i++;
 	}
-	return (dest);
+	return (count);
 }

@@ -6,10 +6,10 @@
 /*   By: arojas-a <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/06 13:30:37 by arojas-a          #+#    #+#             */
-/*   Updated: 2024/06/07 15:05:43 by arojas-a         ###   ########.fr       */
+/*   Updated: 2024/06/10 17:16:05 by arojas-a         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include <unistd.h>
+void	ft_putchar(char c);
 
 void	ft_print_alphabet(void)
 {
@@ -20,5 +20,5 @@ void	ft_print_alphabet(void)
 	{
 		ft_putchar(i);
 		i++;
-	}	
+	}
 }

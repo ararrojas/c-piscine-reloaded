@@ -6,10 +6,10 @@
 /*   By: arojas-a <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/06 17:41:42 by arojas-a          #+#    #+#             */
-/*   Updated: 2024/06/07 15:08:45 by arojas-a         ###   ########.fr       */
+/*   Updated: 2024/06/10 16:35:56 by arojas-a         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include <unistd.h>
+void	ft_putchar(char c);
 
 int	main(int ac, char **av)
 {

@@ -6,10 +6,10 @@
 /*   By: arojas-a <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/06/06 13:42:36 by arojas-a          #+#    #+#             */
-/*   Updated: 2024/06/07 15:06:02 by arojas-a         ###   ########.fr       */
+/*   Updated: 2024/06/10 16:32:05 by arojas-a         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include <unistd.h>
+void	ft_putchar(char c);
 
 void	ft_print_numbers(void)
 {
