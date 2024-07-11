@@ -1,1 +1,1 @@
-Los ejercicios más útiles de la piscina para empezar con todo los proyectos 💪🎭✨
+The most useful exercises from the 42 pool to kickstart the common core 💪🎭✨
